@@ -11,7 +11,7 @@ New-AzAvailabilitySet `
    -PlatformUpdateDomainCount 2
 $cred = Get-Credential
 
-for ($i=1; $i -le 2; $i++)
+for ($i=1; $i -le 3; $i++)
 {
     New-AzVm `
         -ResourceGroupName "ResGrp" `
